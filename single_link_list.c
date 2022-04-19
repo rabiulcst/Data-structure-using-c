@@ -22,6 +22,7 @@ void insert_start()
 	if(head==NULL)
 		head = new_node;
 	else{
+
 		temp_node = head;
 		new_node->next = temp_node;
 		head = new_node;
